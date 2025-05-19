@@ -147,10 +147,14 @@ python manage.py shell
 ```
 signals_project/
 ├── coreapp/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
 │   ├── models.py
 │   ├── signals.py
 │   ├── rectangle_demo.py
-│   └── & other files
+│   └── migrations/
+│       └── __init__.py
 ├── signal_project/
 │   └── settings.py
 ├── .env
